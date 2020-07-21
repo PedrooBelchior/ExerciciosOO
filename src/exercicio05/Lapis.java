@@ -1,0 +1,19 @@
+package exercicio05;
+
+public class Lapis implements  InterfaceEscritor{
+
+    private String ehFeitoDe;
+    private String escreveCom;
+
+    public Lapis() {
+        this.ehFeitoDe = "Madeira";
+        this.escreveCom = "Grafite";
+    }
+
+    @Override
+    public void escrever() {
+        System.out.println("Escrevendo com "+this.escreveCom);
+        
+    }
+
+}
